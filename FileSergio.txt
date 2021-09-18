@@ -1,3 +1,4 @@
-Prueba subir archivo a github
+Proyecto: Se propone analizar, diseñar y construir una aplicación software que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
 
-nice!!
+Nombre: Sergio Andres Salas González.
+Presentación: Actualmente estoy cursando sexto semestre de la carrera de ingeniería de sistemas en la universidad Juan de Castellanos de Túnja.
