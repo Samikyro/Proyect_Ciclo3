@@ -1,0 +1,205 @@
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: xx-large;
+    color: grey;
+}
+
+body {
+    margin: 0px;
+}
+
+
+/* colocar los objetos uno al lado del otro */
+
+.navbar {
+    /* Sin embargo los coloca todo junto, para separarlos*/
+    display: flex;
+    /* Dar espacio entre cada item*/
+    justify-content: space-between;
+    padding: 10px;
+    /*color de fondo*/
+    background-color: rgb(255, 249, 249);
+    /*linea delimitante*/
+    border-bottom: 1px solid gray;
+    /*sombra*/
+    box-shadow: 1px 1px gray;
+}
+
+
+/*cualquier li que este debajo de un nanbar, aplicarle las sigueintes clases*/
+
+.navbar>li {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    /*altura*/
+    height: 90px;
+}
+
+.button {
+    border: 0px;
+    /*espacio hacia afuera dentro del boton*/
+    padding: 5px 12 px;
+    /*redondear los bordes del boton*/
+    border-radius: 6px;
+    /*negrilla en letra del boton*/
+    font-weight: bolder;
+}
+
+
+/*hover: modificador para la clase*/
+
+.button:hover {
+    /*forma del cursos sobre el boton*/
+    cursor: pointer;
+    /*al ubicarse en el botos se puede hacer mas grande o mas pequeño*/
+    transform: scale(1.5);
+}
+
+.mainButton {
+    color: black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: large;
+}
+
+.mainButton1 {
+    /*color de la letra*/
+    color: orange;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: large;
+}
+
+.mainButton2 {
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    /*ancho*/
+    width: 90px;
+    /* Separa el texto del icono buscar*/
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: large;
+}
+
+.mainButton3 {
+    /*color de la letra*/
+    color: white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: large;
+}
+
+.mainButton4 {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    /*ancho*/
+    width: 100px;
+    /* Separa el texto del icono buscar*/
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: large;
+}
+
+.secondaryButton {
+    background-color: lightslategrey;
+    color: white;
+}
+
+.secondaryButton:hover {
+    box-shadow: 3px 3px deeppink;
+}
+
+.buscar {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 8px;
+    /*ancho*/
+    width: 300px;
+    /* Separa el texto del icono buscar*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.buscar:focus-within {
+    /*permite que al darle clik al cajon de busqueda este cambie de color*/
+    border: 1px solid pink;
+}
+
+
+/*cualquier input que este justo debajo de la clase buscar se le puedaaplicar 
+la clase, por ejemplo para quitar el borde
+*/
+
+.buscar>input {
+    outline: none;
+    border: 0px;
+}
+
+.iconoBusqueda:hover {
+    color: blue;
+}
+
+.posicionHorizontal {
+    display: flex;
+}
+
+.separacion {
+    margin: 10px;
+    background-color: rgb(78, 78, 90);
+    box-shadow: 5px 10px 5px rgb(235, 226, 226);
+    border-radius: 10px;
+}
+
+.contenedorImage {
+    width: 240px;
+    height: 350px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.contenedorImage:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.contenedorImage>img {
+    object-fit: cover;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.breedTittle {
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
