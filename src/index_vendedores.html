@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Forniture</title>
+    <link rel="shortcut icon" href="../media/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css_vendedores.css">
+    <script src="https://kit.fontawesome.com/86357813bd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li>
+                <img src="../media/SD Furniture.png" alt="imagen" class="logo">
+            </li>
+            <li>
+                <button class="mainButton1">Administración ventas</button>
+            </li>
+            <li>
+                <button class="mainButton2">Usuarios</button>
+            </li>
+            <li>
+                <button class="mainButton3">Seguimiento</button>
+            </li>
+        </ul>
+    </header>
+
+    
+    <button class="mainButton">< Regresar</button>
+
+    <section class="contenedorSec">
+        <header></header>
+        <section class="contenedorImg">
+            <p class="productoImg">Producto</p>
+        <h3>Por definir</h3>
+        </section>
+
+        <button class="passBack"><i class="fas fa-angle-left" style=" size: 20px; color: #FFAD4C;;"></i></button>
+        <button class="passNext"><i class="fas fa-angle-right" style="color: #FFAD4C;;"></i></button>
+    </section>
+
+    <section>
+        <h2>Registro de ventas</h2>
+        
+        <p class="cliente">Cliente</p>
+        <input type="text" placeholder="Nombre del cliente" class="cajaCliente">
+        
+        <p class="tipo">Tipo</p>
+        <select name="tipo" class="seTipo">
+            <option value="CC">CC</option>
+            <option value="NIT">NIT</option>
+            <option value="TI">TI</option>
+            <option value="CE">CE</option>
+        </select>
+
+        <p class="documento">Documento de identidad</p>
+        <input type="text" placeholder="Número de documento" class="cajaDocumento">
+
+        <p class="producto">Producto</p>
+        <input type="text" placeholder="Nombre del producto" class="cajaProducto">
+
+        <p class="cusid">CUSID de venta</p>
+        <input type="text" placeholder="Codigo de venta" class="cajaCUSID">
+
+        <p class="valorVenta">Valor de venta</p>
+        <input type="text" placeholder="Valor de la venta" class="cajaValor">
+
+        <p class="descripcion">Descripción</p>
+        <input type="text" placeholder="Descripción de la venta" class="cajaDescripcion">
+
+        <p class="fechaI">Fecha inicial</p>
+        <input type="date" name="fechaI" id="1" class="cajaFechaI">
+
+        <p class="fechaF">Fecha final</p>
+        <input type="date" name="fechaF" id="1" class="cajaFechaF">
+
+        <p class="estado">Estado</p>
+        <select name="estado" class="seEstado">
+            <option value="En proceso">En proceso</option>
+            <option value="Vendido">Vendido</option>
+        </select>
+
+        <button onclick="alert('Se Guardo correctamente')"class="bGuardar">Guardar</button>
+
+    </section>
+    
+
+
+    <script src="js/menu.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+
+</html>
