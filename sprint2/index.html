@@ -36,11 +36,23 @@
 	<center> 
 	
 	<h1 class="gestiondeusuarios" style="font-size:50px;">Gestion de Usuarios</h1> 
-	<section> </section>
+	<section>  <FORM method=GET >
+		
+			<input type=hidden name=ie value=UTF-8 />
+			<input type=hidden name=oe value=UTF-8 />
+							
+			<INPUT TYPE=text id="s" name="q" value="" size="30" />
+			<font>
+							
+			<input type=hidden name=domains /><br>				
+			<INPUT type=submit  id="x" name=btnG VALUE="Buscar" />
+			</font>
+		</FORM> </section>
+
 		<table>
 					
 			<colgroup>
-				<col span="5" style="background-color: rgba(255, 173, 76, 0.1)">
+				<col span="6" style="background-color: rgba(255, 173, 76, 0.1)">
 			</colgroup>
 			  <tr>
 			  
@@ -49,6 +61,7 @@
 				<th class="colorLetra">Nombre</th>
 				<th class="colorLetra">Rol</th>
 				<th class="colorLetra">Permisos</th>
+				<th class="colorLetra">Estado</th>
 			  </tr>
 			  <tr>
 					<td><form>
@@ -60,25 +73,23 @@
 				<td class="colorLetraNombre">675432</td>
 				<td class="colorLetraNombre">Juan Pablo Gomez</td>
 				
-				<td><form>
-				<input list="browsers">
-				<datalist id="browsers">
-					<option class="colorLetraNombre" value="Administrador">
-					<option class="colorLetraNombre" value="Vendedor">
-					<option class="colorLetraNombre" value="Usuario">
+				<td><center><select name="FiltroBusqueda" class="tamañoSelect">
+					<option value="CC">Administrador</option>
+					<option value="NIT">Vendedor</option>
+					<option value="TI">Usuario</option>
+					
+				</select></center></td>
+				<td><center><select name="Rol" class="tamañoSelect">
+					<option value="CC">Basico</option>
+					<option value="NIT">Premium</option>
+				</select></center> </td>
 
-				</datalist>
-			</form></td>
-				<td><form>
-				<input list="browsers">
-				<datalist id="browser">
-					<option class="colorLetraNombre" value="Basico">
-					<option class="colorLetraNombre" value="Premium">
-
-				</datalist>
-			</form> </td>
-				
+				<td><center><select name="estado" class="tamañoSelect">
+					<option value="CC">Activo</option>
+					<option value="NIT">Inactivo</option>
+				</select></center> </td>
 			  </tr>
+			  
 			  <tr>
 				<td><form>
 					<center> <input type="checkbox">
@@ -87,23 +98,21 @@
 					</center> </td>
 				<td class="colorLetraNombre">328724</td>
 				<td class="colorLetraNombre">Camilo Andres Davila</td>
-				<td><form>
-				<input list="browsers">
-				<datalist>
-					<option class="colorLetraNombre" value="Administrador">
-					<option class="colorLetraNombre" value="Vendedor">
-					<option class="colorLetraNombre" value="Usuario">
 
-				</datalist>
-			</form></td>
-				<td><form>
-				<input list="browsers">
-				<datalist>
-					<option class="colorLetraNombre" value="Basico">
-					<option class="colorLetraNombre" value="Premium">
-
-				</datalist>
-			</form> </td>
+				<td><center><select name="FiltroBusqueda" class="tamañoSelect">
+					<option value="CC">Administrador</option>
+					<option value="NIT">Vendedor</option>
+					<option value="TI">Usuario</option>
+					
+				</select></center></td>
+				<td><center><select name="Rol" class="tamañoSelect">
+					<option value="CC">Basico</option>
+					<option value="NIT">Premium</option>
+				</select></center> </td>
+				<td><center><select name="estado" class="tamañoSelect">
+					<option value="CC">Activo</option>
+					<option value="NIT">Inactivo</option>
+				</select></center> </td>
 			  </tr>
 
 			  <tr>
@@ -114,24 +123,72 @@
 					</center> </td>
 				<td class="colorLetraNombre">867531</td>
 				<td class="colorLetraNombre">Daniel Felipe Martinez</td>
-				<td class="colorLetraNombre"><form>
-				<input list="browsers">
-				<datalist>
-					<option class="colorLetraNombre" value="Administrador">
-					<option class="colorLetraNombre" value="Vendedor">
-					<option class="colorLetraNombre" value="Usuario">
-
-				</datalist>
-			</form></td>
-				<td><form>
-				<input list="browsers">
-				<datalist>
-					<option class="colorLetraNombre" value="Basico">
-					<option class="colorLetraNombre" value="Premium">
-
-				</datalist>
-			</form> </td>
+				<td><center><select name="FiltroBusqueda" class="tamañoSelect">
+					<option value="CC">Administrador</option>
+					<option value="NIT">Vendedor</option>
+					<option value="TI">Usuario</option>
+					
+				</select></center></td>
+				<td><center><select name="Rol" class="tamañoSelect">
+					<option value="CC">Basico</option>
+					<option value="NIT">Premium</option>
+				</select></center> </td>
+				<td><center><select name="estado" class="tamañoSelect">
+					<option value="CC">Activo</option>
+					<option value="NIT">Inactivo</option>
+				</select></center> </td>
 			  </tr>
+
+			  <tr>
+				<td><form>
+					<center> <input type="checkbox">
+						<label></label><br>
+						</form>
+					</center> </td>
+				<td class="colorLetraNombre">538631</td>
+				<td class="colorLetraNombre">Alejandra Amezquita</td>
+				<td><center><select name="FiltroBusqueda" class="tamañoSelect">
+					<option value="CC">Administrador</option>
+					<option value="NIT">Vendedor</option>
+					<option value="TI">Usuario</option>
+					
+				</select></center></td>
+				<td><center><select name="Rol" class="tamañoSelect">
+					<option value="CC">Basico</option>
+					<option value="NIT">Premium</option>
+				</select></center> </td>
+				<td><center><select name="estado" class="tamañoSelect">
+					<option value="CC">Activo</option>
+					<option value="NIT">Inactivo</option>
+				</select></center> </td>
+			  </tr>
+			  <tr>
+				<td><form>
+					<center> <input type="checkbox">
+						<label></label><br>
+						</form>
+					</center> </td>
+				<td class="colorLetraNombre">285436</td>
+				<td class="colorLetraNombre">Manuela Rojas</td>
+				<td><center><select name="FiltroBusqueda" class="tamañoSelect">
+					<option value="CC">Administrador</option>
+					<option value="NIT">Vendedor</option>
+					<option value="TI">Usuario</option>
+					
+				</select></center></td>
+				<td><center><select name="Rol" class="tamañoSelect">
+					<option value="CC">Basico</option>
+					<option value="NIT">Premium</option>
+				</select></center> </td>
+				<td><center><select name="estado" class="tamañoSelect">
+					<option value="CC">Activo</option>
+					<option value="NIT">Inactivo</option>
+				</select></center> </td>
+			  </tr>
+
+
+			  
+			  
 	</table>
 	<button class="boton1" type="button" onclick="alert('Se agrego correctamente')">Agregar</button>
 	<button class="boton2" type="button" onclick="alert('Se Actualizo correctamente')">Editar</button>
