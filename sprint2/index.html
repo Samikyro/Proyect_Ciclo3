@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/86357813bd.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body >
     <header>
         <ul class="navbar">
             <li>
@@ -32,23 +32,23 @@
             
         </ul>
     </header>
-	<button class = "regresar" type="button" onclick="alert('Se agrego correctamente')">regresar</button>
+	<button class = "regresar" type="button" onclick="alert('Regresar')">regresar</button>
 	<center> 
 	
-	<h1 style="font-size:50px;">Gestion de Usuarios</h1> 
-	
-	<table>
+	<h1 class="gestiondeusuarios" style="font-size:50px;">Gestion de Usuarios</h1> 
+	<section> </section>
+		<table>
 					
 			<colgroup>
 				<col span="5" style="background-color: rgba(255, 173, 76, 0.1)">
 			</colgroup>
 			  <tr>
 			  
-				<th>Check</th>
-				<th>IDEmpleado</th>
-				<th>Nombre</th>
-				<th>Rol</th>
-				<th>Permisos</th>
+				<th class="colorLetra">Check</th>
+				<th class="colorLetra">IDEmpleado</th>
+				<th class="colorLetra">Nombre</th>
+				<th class="colorLetra">Rol</th>
+				<th class="colorLetra">Permisos</th>
 			  </tr>
 			  <tr>
 					<td><form>
@@ -57,23 +57,23 @@
 							</form>
 						</center>
 					</td>
-				<td>675432</td>
-				<td>Juan Pablo Gomez</td>
+				<td class="colorLetraNombre">675432</td>
+				<td class="colorLetraNombre">Juan Pablo Gomez</td>
 				
 				<td><form>
 				<input list="browsers">
 				<datalist id="browsers">
-					<option value="Administrador">
-					<option value="Vendedor">
-					<option value="Usuario">
+					<option class="colorLetraNombre" value="Administrador">
+					<option class="colorLetraNombre" value="Vendedor">
+					<option class="colorLetraNombre" value="Usuario">
 
 				</datalist>
 			</form></td>
 				<td><form>
 				<input list="browsers">
 				<datalist id="browser">
-					<option value="Basico">
-					<option value="Premium">
+					<option class="colorLetraNombre" value="Basico">
+					<option class="colorLetraNombre" value="Premium">
 
 				</datalist>
 			</form> </td>
@@ -85,22 +85,22 @@
 						<label></label><br>
 						</form>
 					</center> </td>
-				<td>328724</td>
-				<td>Camilo Andres Davila</td>
+				<td class="colorLetraNombre">328724</td>
+				<td class="colorLetraNombre">Camilo Andres Davila</td>
 				<td><form>
 				<input list="browsers">
 				<datalist>
-					<option value="Administrador">
-					<option value="Vendedor">
-					<option value="Usuario">
+					<option class="colorLetraNombre" value="Administrador">
+					<option class="colorLetraNombre" value="Vendedor">
+					<option class="colorLetraNombre" value="Usuario">
 
 				</datalist>
 			</form></td>
 				<td><form>
 				<input list="browsers">
 				<datalist>
-					<option value="Basico">
-					<option value="Premium">
+					<option class="colorLetraNombre" value="Basico">
+					<option class="colorLetraNombre" value="Premium">
 
 				</datalist>
 			</form> </td>
@@ -112,35 +112,34 @@
 						<label></label><br>
 						</form>
 					</center> </td>
-				<td>867531</td>
-				<td>Daniel Felipe Martinez</td>
-				<td><form>
+				<td class="colorLetraNombre">867531</td>
+				<td class="colorLetraNombre">Daniel Felipe Martinez</td>
+				<td class="colorLetraNombre"><form>
 				<input list="browsers">
 				<datalist>
-					<option value="Administrador">
-					<option value="Vendedor">
-					<option value="Usuario">
+					<option class="colorLetraNombre" value="Administrador">
+					<option class="colorLetraNombre" value="Vendedor">
+					<option class="colorLetraNombre" value="Usuario">
 
 				</datalist>
 			</form></td>
 				<td><form>
 				<input list="browsers">
 				<datalist>
-					<option value="Basico">
-					<option value="Premium">
+					<option class="colorLetraNombre" value="Basico">
+					<option class="colorLetraNombre" value="Premium">
 
 				</datalist>
 			</form> </td>
 			  </tr>
 	</table>
-			
+	<button class="boton1" type="button" onclick="alert('Se agrego correctamente')">Agregar</button>
+	<button class="boton2" type="button" onclick="alert('Se Actualizo correctamente')">Editar</button>
+	<button class="boton3" type="button" onclick="alert('Se Elimino correctamente')">Borrar</button>
+	<button class="boton4" type="button" onclick="alert('Se Guardo correctamente')">Guardar</button>	
 	
-		<button type="button" onclick="alert('Se agrego correctamente')">Agregar</button>
-		<button type="button" onclick="alert('Se Actualizo correctamente')">Editar</button>
-		<button type="button" onclick="alert('Se Elimino correctamente')">Borrar</button>
-		<button type="button" onclick="alert('Se Guardo correctamente')">Guardar</button>
 	</center>
-			
+	
 			
 			
     <script src="js/menu.js"></script>
