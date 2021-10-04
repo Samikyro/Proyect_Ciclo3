@@ -1,0 +1,80 @@
+ <td><center><select name="FiltroBusqueda" class="tamañoSelect">
+                <option value="CC">Puf moderno</option>
+                <option value="NIT">Vendedor</option>
+                <option value="TI">Usuario</option>
+            </select></center></td>
+            <td><center><select name="Rol" class="tamañoSelect">
+                <option value="CC">00350</option>
+                <option value="NIT">003501</option>
+            </select></center> </td>
+<tr>
+            <td><form>
+                <center> <input type="checkbox">
+                    <label></label><br>
+                    </form>
+                </center> </td>
+            <td class="colorLetraNombre">328724</td>
+            <td class="colorLetraNombre">Color</td>
+
+            <td><center><select name="FiltroBusqueda" class="tamañoSelect">
+                <option value="CC">Administrador</option>
+                <option value="NIT">Vendedor</option>
+                <option value="TI">Usuario</option>
+                
+            </select></center></td>
+            <td><center><select name="Rol" class="tamañoSelect">
+                <option value="CC">00350</option>
+                <option value="NIT">003501</option>
+            </select></center> </td>
+           
+          </tr>
+          <tr>
+            <td><form>
+                <center> <input type="checkbox">
+                    <label></label><br>
+                    </form>
+                </center>
+            </td>
+        <td class="colorLetraNombre">42997676</td>
+        <td class="colorLetraNombre">Material </td>
+        
+        
+        <td><center><select name="FiltroBusqueda" class="tamañoSelect">
+            <option value="CC">Puf moderno</option>
+            <option value="NIT">Vendedor</option>
+            <option value="TI">Usuario</option>
+        </select></center></td>
+        <td><center><select name="Rol" class="tamañoSelect">
+            <option value="CC">00350</option>
+            <option value="NIT">003501</option>
+        </select></center> </td>
+
+      
+      </tr>
+
+
+
+
+
+otro 
+ <tr>
+            
+            <td class="colorLetraNombre">Puf moderno</td>
+            <td class="colorLetraNombre">454556 </td>
+            <td class="colorLetraNombre">Azul </td>
+            <td class="colorLetraNombre">700000 </td>
+            <td class="colorLetraNombre">1 </td>
+
+          
+          </tr>
+ <tr><td class="colorLetraNombre">Silla</td>
+            <td class="colorLetraNombre">454556 </td>
+            <td class="colorLetraNombre">verde </td>
+            <td class="colorLetraNombre">500000 </td>
+            <td class="colorLetraNombre">3 </td> </tr>
+            <tr><td class="colorLetraNombre">Sofa</td>
+                <td class="colorLetraNombre">455545 </td>
+                <td class="colorLetraNombre">Cafe </td>
+                <td class="colorLetraNombre">650000 </td>
+                <td class="colorLetraNombre">2 </td></tr>
+          

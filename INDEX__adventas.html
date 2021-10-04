@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Forniture</title>
+    <link rel="shortcut icon" href="../Proyect_Ciclo3/media/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./ventas.css">
+    <script src="https://kit.fontawesome.com/86357813bd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li>
+                <img src="./media/logo.jpeg" alt="imagen" class="logo">
+            </li>
+            <li>
+                <button class="mainButton1">Administración ventas</button>
+            </li>
+            <li>
+                <button class="mainButton2">Usuarios</button>
+            </li>
+            <li>
+                <button class="mainButton3">Seguimiento</button>
+            </li>
+        </ul>
+    </header>
+
+    
+    <button class="mainButton">< Regresar</button>
+
+    <h1>Administrador de ventas</h1>
+
+    <select name="FiltroBusqueda" class="busqueda">
+        <option selected value="0">Filtro de busqueda</option>
+        <option value="1">Cliente</option>
+        <option value="2">Producto</option>
+        <option value="3">CUSID</option>
+    </select>
+
+    <input type="text" class="cajaBusqueda" placeholder="Ingresa información">
+
+    <table class="organizartabla"> 
+					
+        <colgroup>
+            <col span="5" style="background-color: rgba(255, 173, 76, 0.1)">
+        </colgroup>
+          <tr>
+          
+            <th class="colorLetra">Puf moderno</th>
+            <th class="colorLetra">Vendedor</th>
+            <th class="colorLetra">Usuario</th>
+            
+          </tr>
+          <tr>
+            
+            <td class="colorLetraNombre">Puf moderno</td>
+            <td class="colorLetraNombre">454556 </td>
+            <td class="colorLetraNombre">Azul </td>
+            <td class="colorLetraNombre">700000 </td>
+            <td class="colorLetraNombre">1 </td>
+
+          
+          </tr>
+
+          
+
+         
+         
+          
+         
+          
+</table>
+<button class="boton1" type="button" onclick="alert('Se agrego correctamente')">Agregar</button>
+	<button class="boton2" type="button" onclick="alert('Se Actualizo correctamente')">Editar</button>
+	<button class="boton3" type="button" onclick="alert('Se Elimino correctamente')">Borrar</button>
+	<button class="boton4" type="button" onclick="alert('Se Guardo correctamente')">Guardar</button>
+
+
+</body>
+
+</html>
