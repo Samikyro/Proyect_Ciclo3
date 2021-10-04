@@ -1,0 +1,7 @@
+Proyecto: Se propone analizar, diseñar y construir una aplicación 
+software que permita controlar las ventas físicas y virtuales de 
+una empresa de manufactura y hacerles el correspondiente seguimiento.
+
+Nombre: Sandra Quitian
+Rol: Scrum Master
+Presentación:Docente de matemáticas. Magíster en matemática aplicada 

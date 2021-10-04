@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Forniture</title>
+    <link rel="shortcut icon" href="./media/favicon.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/86357813bd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li>
+                <img src="./media/logo.JPG" alt="imagen" class="logo">
+            </li>
+            <li>
+                <button class="mainButton">Administracion Ventas</button>
+            </li>
+            <li>
+                <button class="mainButton">Vendedores</button>
+            </li>
+            <li>
+                <button class="mainButton">Usuarios</button>
+            </li>
+            <li>
+                <button class="mainButton1">Seguimiento</button>
+            </li>
+            
+        </ul>
+    </header>
+	<button class = "regresar" type="button" onclick="alert('Se agrego correctamente')">regresar</button>
+	<center> 
+	
+	<h1 style="font-size:50px;">Gestion de Usuarios</h1> 
+	
+	<table>
+					
+			<colgroup>
+				<col span="5" style="background-color: rgba(255, 173, 76, 0.1)">
+			</colgroup>
+			  <tr>
+			  
+				<th>Check</th>
+				<th>IDEmpleado</th>
+				<th>Nombre</th>
+				<th>Rol</th>
+				<th>Permisos</th>
+			  </tr>
+			  <tr>
+					<td><form>
+						<center> <input type="checkbox">
+							<label></label><br>
+							</form>
+						</center>
+					</td>
+				<td>675432</td>
+				<td>Juan Pablo Gomez</td>
+				
+				<td><form>
+				<input list="browsers">
+				<datalist id="browsers">
+					<option value="Administrador">
+					<option value="Vendedor">
+					<option value="Usuario">
+
+				</datalist>
+			</form></td>
+				<td><form>
+				<input list="browsers">
+				<datalist id="browser">
+					<option value="Basico">
+					<option value="Premium">
+
+				</datalist>
+			</form> </td>
+				
+			  </tr>
+			  <tr>
+				<td><form>
+					<center> <input type="checkbox">
+						<label></label><br>
+						</form>
+					</center> </td>
+				<td>328724</td>
+				<td>Camilo Andres Davila</td>
+				<td><form>
+				<input list="browsers">
+				<datalist>
+					<option value="Administrador">
+					<option value="Vendedor">
+					<option value="Usuario">
+
+				</datalist>
+			</form></td>
+				<td><form>
+				<input list="browsers">
+				<datalist>
+					<option value="Basico">
+					<option value="Premium">
+
+				</datalist>
+			</form> </td>
+			  </tr>
+
+			  <tr>
+				<td><form>
+					<center> <input type="checkbox">
+						<label></label><br>
+						</form>
+					</center> </td>
+				<td>867531</td>
+				<td>Daniel Felipe Martinez</td>
+				<td><form>
+				<input list="browsers">
+				<datalist>
+					<option value="Administrador">
+					<option value="Vendedor">
+					<option value="Usuario">
+
+				</datalist>
+			</form></td>
+				<td><form>
+				<input list="browsers">
+				<datalist>
+					<option value="Basico">
+					<option value="Premium">
+
+				</datalist>
+			</form> </td>
+			  </tr>
+	</table>
+			
+	
+		<button type="button" onclick="alert('Se agrego correctamente')">Agregar</button>
+		<button type="button" onclick="alert('Se Actualizo correctamente')">Editar</button>
+		<button type="button" onclick="alert('Se Elimino correctamente')">Borrar</button>
+		<button type="button" onclick="alert('Se Guardo correctamente')">Guardar</button>
+	</center>
+			
+			
+			
+    <script src="js/menu.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+
+</html>

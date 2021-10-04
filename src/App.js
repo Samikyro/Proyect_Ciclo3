@@ -39,7 +39,7 @@ function App() {
         </ul>
     </header>
     <main>
-        <section>
+        {/* <section>
             <ul className="posicionHorizontal">
                 <li className="separacion">
                     <div className="contenedorImage">
@@ -59,7 +59,8 @@ function App() {
                 </li>
             </ul>
         </section>
-        <section></section>
+        <section></section> */}
+        
     </main>
     <footer></footer>
     </div>
