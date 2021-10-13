@@ -1,23 +1,37 @@
-import './styles/styles.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import AgregarProducto from './pages/AgregarProducto';
-import AgregarVenta from './pages/AgregarVenta';
-import Layout from './layouts/Layout';
+import AddProducto from "./pages/AddProducto";
+import AddVenta from "./pages/AddVenta";
+import Layout from "./layouts/Layout";
+import Ventas from "./pages/Ventas";
+import Gestionu from "./pages/gestusu";
+import Login from "./pages/login";
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
-        <Layout>
-          <Switch>
-            <Route path='/AddVenta'>
-              <AgregarVenta></AgregarVenta>
-            </Route>
-            <Route path='/AddProducto'>
-              <AgregarProducto></AgregarProducto>
-            </Route>
-          </Switch>
-        </Layout>
+        <Switch>
+          <Route path="/Login">
+            <Login></Login>
+          </Route>
+          <Layout>
+            <Switch>
+              <Route path="/Ventas">
+                <Ventas></Ventas>
+              </Route>
+              <Route path="/AddVenta">
+                <AddVenta></AddVenta>
+              </Route>
+              <Route path="/AddProducto">
+                <AddProducto></AddProducto>
+              </Route>
+              <Route path="/Usuarios">
+                <Gestionu></Gestionu>
+              </Route>
+            </Switch>
+          </Layout>
+        </Switch>
       </Router>
     </div>
   );

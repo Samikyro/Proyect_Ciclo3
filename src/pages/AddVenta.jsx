@@ -1,9 +1,12 @@
 import '../styles/addVenta.css'
+import { Link } from 'react-router-dom';
 
-function AgregarVenta() {
+function AddVenta() {
     return (
         <main>
+            <Link to = '/Ventas'>
             <button className="mainButton"> Regresar</button>
+            </Link>
 
             <section className="contenedorSecV">
                 <section className="contenedorImg">
@@ -63,4 +66,4 @@ function AgregarVenta() {
     )
 }
 
-export default AgregarVenta;
+export default AddVenta;

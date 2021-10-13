@@ -1,6 +1,6 @@
 import '../styles/addProducto.css'
 
-function AgregarProducto() {
+function AddProducto() {
     return (
         <main>
 
@@ -43,4 +43,4 @@ function AgregarProducto() {
     )
 }
 
-export default AgregarProducto;
+export default AddProducto;

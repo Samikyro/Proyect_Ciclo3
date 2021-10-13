@@ -20,7 +20,7 @@ body {
 
 /* colocar los objetos uno al lado del otro */
 
-.navbar {
+.navbarH {
   /* Sin embargo los coloca todo junto, para separarlos*/
   display: flex;
   /* Dar espacio entre cada item*/
@@ -39,12 +39,12 @@ body {
 
 /*cualquier li que este debajo de un nanbar, aplicarle las sigueintes clases*/
 
-.navbar>li {
+.navbarH>li {
   display: flex;
   align-items: center;
 }
 
-.logo {
+.logoH {
   /*altura*/
   width: auto;
   height: 50px;
@@ -82,7 +82,7 @@ body {
   transform: scale(1.5);
 }
 
-.mainButton1 {
+.mainButton1H {
   /*color de la letra*/
   color: black;
   background-color: transparent;
@@ -97,7 +97,7 @@ body {
   
 }
 
-.mainButton4 {
+.mainButton4H {
   /*color de la letra*/
   color: orange;
   background-color: transparent;
@@ -112,7 +112,7 @@ body {
   
 }
 
-.mainButton2 {
+.mainButton2H {
   color: black;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -125,7 +125,7 @@ body {
   left: 406px;
 }
 
-.mainButton3 {
+.mainButton3H {
   color: black;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -143,12 +143,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  overflow-y: hidden;
 }
 
 .mainContainer > main {
   height: max-content;
-  overflow-y: scroll;
 }
 
 .mainButton {
