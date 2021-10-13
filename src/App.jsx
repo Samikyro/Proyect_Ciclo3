@@ -5,6 +5,7 @@ import Layout from "./layouts/Layout";
 import Ventas from "./pages/Ventas";
 import Gestionu from "./pages/gestusu";
 import Login from "./pages/login";
+import LoginUsu from "./pages/loginUsu";
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
           <Route path="/Login">
             <Login></Login>
           </Route>
+          <Route path="/LoginUsu">
+                <LoginUsu></LoginUsu>
+              </Route>
           <Layout>
             <Switch>
               <Route path="/Ventas">
