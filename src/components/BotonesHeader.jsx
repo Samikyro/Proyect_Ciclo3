@@ -5,7 +5,7 @@ function BotonesHeader({nombreBoton}) {
         <li>
             <Link to="/Ventas">
                 <div>
-                    <button className="mainButtonHI">{nombreBoton}</button>
+                    <button className="botonLogin">{nombreBoton}</button>
                 </div>
             </Link>
         </li>
