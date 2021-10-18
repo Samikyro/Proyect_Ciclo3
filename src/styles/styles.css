@@ -1,189 +1,179 @@
 ul {
-  list-style: none;
-  margin: 0px;
-  height: 120px;
-  width: 100%;
+    list-style: none;
+    margin: 0px;
+    height: 120px;
+    width: 100%;
 }
 
 h1 {
-  font-size: xx-large;
-  color: grey;
+    font-size: xx-large;
+    color: grey;
 }
 
+
+/*
 body {
-  margin: 0px;
-  background-color: #E5E5E5;;
-  height: auto;
-  width: auto;
+    margin: 0px;
+    background-color: rgb(243, 236, 236);
+    height: auto;
+    width: auto;
 }
+*/
 
 
 /* colocar los objetos uno al lado del otro */
 
 .navbarH {
-  /* Sin embargo los coloca todo junto, para separarlos*/
-  display: flex;
-  /* Dar espacio entre cada item*/
-  justify-content: space-between;
-  padding: 5px;
-  /*color de fondo*/
-  background-color: #F9F6F0;;
-  /*linea delimitante*/
-  border-bottom: 1px solid gray;
-  /*sombra*/
-  box-shadow: 1px 1px gray;
-  width: auto;
-  height: 100px;
+    /* Sin embargo los coloca todo junto, para separarlos*/
+    display: flex;
+    /* Dar espacio entre cada item*/
+    justify-content: space-between;
+    padding: 5px;
+    /*color de fondo*/
+    background-color: #F9F6F0;
+    ;
+    /*linea delimitante*/
+    border-bottom: 1px solid gray;
+    /*sombra*/
+    box-shadow: 1px 1px gray;
+    width: auto;
+    height: 100px;
 }
 
 
 /*cualquier li que este debajo de un nanbar, aplicarle las sigueintes clases*/
 
 .navbarH>li {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .logoH {
-  /*altura*/
-  width: auto;
-  height: 50px;
-  left: 48px !important;
-  padding-left: 48px;
+    /*altura*/
+    width: auto;
+    height: 50px;
+    left: 48px !important;
+    padding-left: 48px;
 }
 
 .button {
-  border: 0px;
-  /*espacio hacia afuera dentro del boton*/
-  padding: 5px 12 px;
-  /*redondear los bordes del boton*/
-  border-radius: 6px;
-  /*negrilla en letra del boton*/
-  font-weight: bolder;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 34px;
-  /* identical to box height, or 170% */
-
-  letter-spacing: 0.01em;
-
+    border: 0px;
+    /*espacio hacia afuera dentro del boton*/
+    padding: 5px 12 px;
+    /*redondear los bordes del boton*/
+    border-radius: 6px;
+    /*negrilla en letra del boton*/
+    font-weight: bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    /* identical to box height, or 170% */
+    letter-spacing: 0.01em;
 }
 
 
 /*hover: modificador para la clase*/
 
 .button:hover {
-  /*forma del cursos sobre el boton*/
-  cursor: pointer;
-  /*al ubicarse en el botos se puede hacer mas grande o mas pequeño*/
-  transform: scale(1.5);
+    /*forma del cursos sobre el boton*/
+    cursor: pointer;
+    /*al ubicarse en el botos se puede hacer mas grande o mas pequeño*/
+    transform: scale(1.5);
 }
 
 .mainButton1H {
-  /*color de la letra*/
-  color: black;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  font-size: 20px;
-  width: 220px;
-  height: 34px;
-  left: 429px;
-  
+    /*color de la letra*/
+    color: black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 20px;
+    width: 220px;
+    height: 34px;
+    left: 429px;
 }
 
 .mainButton4H {
-  /*color de la letra*/
-  color: orange;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  font-size: 20px;
-  width: 220px;
-  height: 34px;
-  left: 429px;
-  
+    /*color de la letra*/
+    color: orange;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 20px;
+    width: 220px;
+    height: 34px;
+    left: 429px;
 }
 
 .mainButton2H {
-  color: black;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  font-size: 20px;
-  width: 90px;
-  height: 34px;
-  left: 406px;
+    color: black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 20px;
+    width: 90px;
+    height: 34px;
+    left: 406px;
 }
 
 .mainButton3H {
-  color: black;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  border: none;
-  cursor: pointer;
-  overflow: hidden;
-  font-size: 20px;
-  width: 114px;
-  height: 34px;
-  left: 686px;
-  padding-right: 211px;
+    color: black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 20px;
+    width: 114px;
+    height: 34px;
+    left: 686px;
+    padding-right: 211px;
 }
 
-.mainContainer {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
+.mainContainer {}
 
-.mainContainer > main {
-  height: max-content;
+.mainContainer>main {
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
 }
 
 .mainButton {
-      
-  position: absolute;
-  width: 137px;
-  height: 50px;
-  left: 90px;
-  top: 172px;
-  
-  background: #FFAD4C;
-  border: 0px;
-  border-radius: 25px;
-
-  cursor: pointer;
-  /*al ubicarse en el botos se puede hacer mas grande o mas pequeño*/
-  transform: scale(1.5);
-  
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 34px;
-  /* identical to box height, or 170% */
-
-  letter-spacing: 0.01em;
-
-  color: #FFFFFF;
-
+    position: absolute;
+    width: 137px;
+    height: 50px;
+    left: 90px;
+    top: 172px;
+    background: #FFAD4C;
+    border: 0px;
+    border-radius: 25px;
+    cursor: pointer;
+    /*al ubicarse en el botos se puede hacer mas grande o mas pequeño*/
+    transform: scale(1.5);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    /* identical to box height, or 170% */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
 }
 
-.fa-angle-left{
-  size: 20px;
-  color: #FFAD4C;
-
+.fa-angle-left {
+    size: 20px;
+    color: #FFAD4C;
 }
 
-.fa-angle-right{
-  color: #FFAD4C;
+.fa-angle-right {
+    color: #FFAD4C;
 }
