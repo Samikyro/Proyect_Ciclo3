@@ -1,5 +1,6 @@
 import '../styles/addVenta.css'
 import { Link } from 'react-router-dom';
+import Football from '../components/alerta'
 
 function AddVenta() {
     return (
@@ -18,7 +19,7 @@ function AddVenta() {
                 <button className="passNextV"><i className="fas fa-angle-right"></i></button>
             </section>
 
-            <section>
+            <form>
                 <h2>Registro de ventas</h2>
 
                 <p className="clienteV">Cliente</p>
@@ -58,10 +59,8 @@ function AddVenta() {
                     <option value="En proceso">En proceso</option>
                     <option value="Vendido">Vendido</option>
                 </select>
-
-                <button onclick="alert('Se Guardo correctamente')" className="bGuardarV">Guardar</button>
-
-            </section>
+            </form>
+            <Football ></Football>
         </main>
     )
 }

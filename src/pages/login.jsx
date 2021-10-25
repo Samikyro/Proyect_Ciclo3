@@ -1,6 +1,7 @@
 import HeaderI from '../components/HeaderI';
 import Footer from '../components/Footer';
 import '../styles/login.css';
+import ActivacionGmail from "../components/vinculacion";
 
 
 function Login() {
@@ -38,13 +39,10 @@ function Login() {
                 </form>
                     */}
 
-                <section className="mainButton8">
-                    <li>
-                        <div className="mainButton99">
-                            <i class="fab fa-google"></i>
-                            <button className="mainButton33">Ingresar con Gmail</button>
-                        </div>
-                    </li>
+                <section className="mainButton99 mainButton33">
+                {/* <i class="fab fa-google"></i> */}
+                
+                <ActivacionGmail></ActivacionGmail>
                 </section>
 
                 <section className="mainButton7">

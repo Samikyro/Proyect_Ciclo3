@@ -243,7 +243,23 @@ p {
 .mainButton8 {
     position: absolute;
     left: 139px;
+    width: 358px;
     top: 482px;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.mainButton33 {
+    /*color de la letra*/
+    color: black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: large;
 }
 
 .secondaryButton {
@@ -532,4 +548,16 @@ la clase, por ejemplo para quitar el borde
     font-size: 15px;
     line-height: 23px;
     padding-left: 20px;
+}
+
+.posicionCajaVentas {
+    position: absolute;
+    width: 1196px;
+    height: 164.05px;
+    left: 118px;
+    top: 389px;
+    background: rgba(255, 173, 76, 0.1);
+    border-style: double;
+    border: true;
+    align-items: center;
 }

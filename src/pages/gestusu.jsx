@@ -19,94 +19,93 @@ function Gestionu() {
                     </label>
                 </form>
                 
-                <table className="organizartabla"> 
+                <div className="table-responsiv">
+                    <table className="table table-bordered posicionCajaVentas table-hover table-sm">
+                        <thead>
+                        <tr>
+                            <th>Check</th>
+                            <th>ID Empleado</th>
+                            <th>Nombre</th>
+                            <th>Rol</th>
+                            <th>Permiso</th>
+                            <th>Estado</th>
+                        </tr>
+                        </thead>
 
-                                
-                    <colgroup>
-                        <col span="6">
-                        </col>
-                    </colgroup>
-                    <tr>
-                    
-                        <th className="colorLetra">Check</th>
-                        <th className="colorLetra">ID Empleado</th>
-                        <th className="colorLetra">Nombre</th>
-                        <th className="colorLetra">Rol</th>
-                        <th className="colorLetra">Permisos</th>
-                        <th className="colorLetra">Estado</th>
+                        <tbody>
+                        <tr>
+                            <td>
+                            <form>
+                                <label>
+                                    <center><input type="checkbox" /></center>
+                                </label>
+                            </form>
+                            </td>
+                            <td>000001</td>
+                            <td>Ana Pulido</td>
+                            <td>
+                            <center><select nameName="FiltroBusqueda" className="tamañoSelect">
+                                <option value="CC">Administrador</option>
+                                <option value="NIT">Vendedor</option>
+                                <option value="TI">Ejecutivo</option>
+                                <option value="TE">Operativo</option>
+                                <option value="TA">Director</option>
+                                <option value="TO">Gerente</option>
+                            </select></center>
+                            </td>
+                            <td>
+                            <center><select name="Rol" className="tamañoSelect">
+                                <option valueName="CC">Premium</option>
+                                <option valueName="NIT">Básico</option>
+                                <option valueName="TI">VIP</option>
+                            </select></center>
+                            </td>
+                            <td>
+                            <center><select nameName="FiltroBusqueda" className="tamañoSelect">
+                                <option value="CC">Activo</option>
+                                <option value="NIT">Inactivo</option>
+                            </select></center>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                            <form>
+                                <label>
+                                    <center><input type="checkbox" /></center>
+                                </label>
+                            </form>
+                            </td>
+                            <td>000002</td>
+                            <td>Sergio Salas</td>
+                            <td>
+                            <center><select nameName="FiltroBusqueda" className="tamañoSelect">
+                                <option value="CC">Administrador</option>
+                                <option value="NIT">Vendedor</option>
+                                <option value="TI">Ejecutivo</option>
+                                <option value="TE">Operativo</option>
+                                <option value="TA">Director</option>
+                                <option value="TO">Gerente</option>
+                            </select></center>
+                            </td>
+                            <td>
+                            <center><select name="Rol" className="tamañoSelect">
+                                <option valueName="CC">Premium</option>
+                                <option valueName="NIT">Básico</option>
+                                <option valueName="TI">VIP</option>
+                            </select></center>
+                            </td>
+                            <td>
+                            <center><select nameName="FiltroBusqueda" className="tamañoSelect">
+                                <option value="CC">Activo</option>
+                                <option value="NIT">Inactivo</option>
+                            </select></center>
+                            </td>
+                        </tr>
                         
-                    </tr>
-                    
-                    <tr>
-                        <td>
-                            <form>
-                                <label>
-                                    <center><input type="checkbox" /></center>
-                                </label>
-                            </form>
-                            <br />
-                        </td>
+                        </tbody>
 
-                        <td className="colorLetraNombre">00001</td>
-                        <td className="colorLetraNombre"> Ana Pulido </td>
-
-                        <td><center><select nameName="FiltroBusqueda" className="tamañoSelect">
-                            <option value="CC">Administrador</option>
-                            <option value="NIT">Vendedor</option>
-                            <option value="TI">Ejecutivo</option>
-                            <option value="TE">Operativo</option>
-                            <option value="TA">Director</option>
-                            <option value="TO">Gerente</option>
-                        </select></center></td>
-
-                        <td><center><select name="Rol" className="tamañoSelect">
-                            <option valueName="CC">Premium</option>
-                            <option valueName="NIT">Básico</option>
-                            <option valueName="TI">VIP</option>
-                        </select></center> </td>
-
-                        <td><center><select nameName="FiltroBusqueda" className="tamañoSelect">
-                            <option value="CC">Activo</option>
-                            <option value="NIT">Inactivo</option>
-                        </select></center></td>
-
-                    </tr>
-                    <tr>
-                        <td>
-                            <form>
-                                <label>
-                                    <center><input type="checkbox" /></center>
-                                </label>
-                            </form>
-                            <br />
-                        </td>
-                        <td className="colorLetraNombre">00002</td>
-                        <td className="colorLetraNombre"> Sergio Salas </td>
-                    
-                    
-                        <td><center><select nameName="FiltroBusqueda" className="tamañoSelect">
-                            <option value="CC">Administrador</option>
-                            <option value="NIT">Vendedor</option>
-                            <option value="TI">Ejecutivo</option>
-                            <option value="TE">Operativo</option>
-                            <option value="TA">Director</option>
-                            <option value="TO">Gerente</option>
-                        </select></center></td>
-
-                        <td><center><select name="Rol" className="tamañoSelect">
-                            <option valueName="CC">Premium</option>
-                            <option valueName="NIT">Básico</option>
-                            <option valueName="TI">VIP</option>
-                        </select></center> </td>
-
-                        <td><center><select nameName="FiltroBusqueda" className="tamañoSelect">
-                            <option value="CC">Activo</option>
-                            <option value="NIT">Inactivo</option>
-                        </select></center></td>
-                    </tr>
-                    
-                </table>
-
+                    </table>
+                </div>
 
                     <button className="boton1" type="button" onclick="alert('Se agrego correctamente')">Agregar</button>
                     <button className="boton2" type="button" onclick="alert('Se Actualizo correctamente')">Editar</button>
